@@ -1,0 +1,13 @@
+.titled-pane:focused
+{
+    -fx-font-family: "Franklin Gothic Book";
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+}
+.titled-pane > .title
+{
+    -fx-background-color: linear-gradient(to right,rgb(120, 61, 128),rgb(156,28,188));
+    -fx-background-insets: 0, 2, 2;
+    -fx-background-radius: 2 2 0 0, 3 3 0 0, 3 3 0 0;
+    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
+}
